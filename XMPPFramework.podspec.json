@@ -538,7 +538,7 @@
 
         ]
       },
-    fix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0308"
+    "fix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0308"
     },
     {
       "name": "XEP-0333",
