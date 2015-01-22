@@ -316,7 +316,8 @@
         ]
       },
       "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0066"
-    
+    },
+    {
       "name": "XEP-0082",
       "source_files": "Extensions/XEP-0082/**/*.{h,m}",
       "dependencies": {
@@ -358,7 +359,7 @@
     },
     {
       "name": "XEP-0106",
-      "source_files": "Extensions/X06/**/*.{h,m}",
+      "source_files": "Extensions/XEP-0106/**/*.{h,m}",
       "dependencies": {
         "XMPPFramework/Core": [
 
@@ -405,7 +406,7 @@
         "XMPPFramework/Core": [
 
         ],
-        "XMPramework/XEP-0054": [
+        "XMPPFramework/XEP-0054": [
 
         ]
       },
@@ -449,7 +450,7 @@
 
         ]
       },
-      "prefix_headerontents": "#define HAVE_XMPP_SUBSPEC_XEP_0198"
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0198"
     },
     {
       "name": "XEP-0199",
@@ -493,7 +494,7 @@
       "dependencies": {
         "XMPPFramework/Core": [
 
-       
+        ]
       },
       "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0223"
     },
@@ -538,7 +539,7 @@
 
         ]
       },
-    "fix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0308"
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0308"
     },
     {
       "name": "XEP-0333",
