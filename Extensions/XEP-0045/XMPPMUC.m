@@ -260,6 +260,7 @@ NSString *const XMPPConferenceXmlns = @"jabber:x:conference";
       [multicastDelegate     xmppMUC:self
 failedToDiscoverRoomsForServiceNamed:serviceName
                            withError:error];
+      hasRequestedRooms = NO; // Set this back to NO to allow for future requests
       return;
     }
 
